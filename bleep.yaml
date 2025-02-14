@@ -1,0 +1,14 @@
+$schema: https://raw.githubusercontent.com/oyvindberg/bleep/master/schema.json
+$version: 0.0.12
+jvm:
+  name: graalvm-community:23.0.1
+projects:
+  html-generator:
+    dependencies: io.github.nafg.jewish-date::jewish-date:0.5.0
+    platform:
+      mainClass: com.example.html.HtmlGenerator
+      name: jvm
+    scala:
+      options: -encoding utf8 -feature -unchecked
+      strict: true
+      version: 2.13.16
