@@ -4,18 +4,19 @@ import jewishdate.{JewishDate, JewishMonth}
 
 object FormatDate {
   private val hebrewMonths = Map(
-    JewishMonth.Tishrei  -> "תשרי",
-    JewishMonth.Cheshvan -> "חשון",
-    JewishMonth.Kislev   -> "כסלו",
-    JewishMonth.Teves    -> "טבת",
-    JewishMonth.Shvat    -> "שבט",
-    JewishMonth.Adar     -> "אדר",
-    JewishMonth.Nissan   -> "ניסן",
-    JewishMonth.Iyar     -> "אייר",
-    JewishMonth.Sivan    -> "סיון",
-    JewishMonth.Tammuz   -> "תמוז",
-    JewishMonth.Av       -> "אב",
-    JewishMonth.Elul     -> "אלול"
+    JewishMonth.Tishrei      -> "תשרי",
+    JewishMonth.Cheshvan     -> "חשון",
+    JewishMonth.Kislev       -> "כסלו",
+    JewishMonth.Teves        -> "טבת",
+    JewishMonth.Shvat        -> "שבט",
+    JewishMonth.Adar         -> "אדר",
+    JewishMonth.`Adar Sheni` -> "אדר ב'",
+    JewishMonth.Nissan       -> "ניסן",
+    JewishMonth.Iyar         -> "אייר",
+    JewishMonth.Sivan        -> "סיון",
+    JewishMonth.Tammuz       -> "תמוז",
+    JewishMonth.Av           -> "אב",
+    JewishMonth.Elul         -> "אלול"
   )
 
   def apply(date: JewishDate): String = {

@@ -6,9 +6,9 @@ projects:
   html-generator:
     dependencies: io.github.nafg.jewish-date::jewish-date:0.5.0
     platform:
-      mainClass: com.example.html.HtmlGenerator
+      mainClass: chazarachart.Main
       name: jvm
     scala:
       options: -encoding utf8 -feature -unchecked
       strict: true
-      version: 2.13.16
+      version: 3.6.3
